@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azevedo Veiculos</title>
+    <link rel="icon" type="image/png" href="Midias/AzevedoVeiculos.png" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="Midias/AzevedoVeiculos.png" class="nav__logo" alt="">
+            <ul class="nav__list">
+                <li class="nav__item nav__item--inicio">
+                    <a class="nav__link" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav__item nav__item--sobre">
+                    <a class="nav__link" href="/about.html">Sobre</a>
+                </li>
+                <li class="nav__item nav__item--servico">
+                    <a class="nav__link btn" href="#servicos">Serviços</a></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="inicio container">
+            <div class="inicio__wrapper container__wrapper">
+                <video class="inicio__video" src="Midias/videoplayback.mp4" autoplay muted loop playsinline
+                    class="background-video">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <div class="inicio__video--gradient"></div>
+
+            <div class="inicio__content container__wrapper">
+                <h1 class="inicio__title">A escolha certa para <br> quem entende de <span
+                        class="inicio__title--emphasis">carros!</span></h1>
+                <p class="inicio__text">Veículos revisados, garantia e atendimento premium. <br> Você no controle.
+                    Sempre.</p>
+                <a class="inicio__link btn" href="#servicos">Entre em contato</a>
+            </div>
+        </section>
+        <section id="sobre" class="sobre container">
+            <div class="sobre__wrapper container__wrapper">
+                <div class="sobre__primeiraParte sobre__parte hidden">
+                    <div class="sobre__primeiraParte--content">
+                        <h2 class="sobre__primeiraParte--title">Sobre Nós</h2>
+                        <p class="sobre__primeiraParte--paragrafo sobre__paragrafo">A Azevedo Veiculos nasceu com o
+                            propósito de transformar a experiência de compra e venda de veículos. Mais do que uma loja,
+                            somos especialistas em conectar pessoas aos carros ideais, com transparência, qualidade e
+                            atendimento diferenciado. Trabalhamos com veículos rigorosamente selecionados e oferecemos
+                            soluções sob medida para quem busca segurança, confiança e praticidade na hora de fechar
+                            negócio.</p>
+                        <a class="btn sobre__btn" href="/about.html">Saiba mais</a>
+                    </div>
+                    <div>
+                        <img class="sobre__primeiraParte--img sobre__img" src="Midias/Familia Azevedo - Editado.jpg"
+                            alt="Icone laranja de um aperto de mãos">
+                    </div>
+                </div>
+            </div>
+            <div class="sobre__btn container__wrapper">
+
+            </div>
+        </section>
+        <section id="servicos" class="servicos hidden container">
+            <div class="container__wrapper">
+                <h2 class="servicos__title">Escolha o melhor carro <br> para você</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="/Midias/Carro Popular.jpg" alt="Carros Populares">
+                        <div class="card-content">
+                            <h3>Carros Populares</h3>
+                            <p>Modelos econômicos, ideais para o dia a dia e com ótimo consumo.</p>
+                            <a class="btn answers__btn" href="/faq.html">Quero um carro</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Midias/Carro Popular 2.jpg" alt="Até R$ 50.000">
+                        <div class="card-content">
+                            <h3>Até R$ 50.000</h3>
+                            <p>Veículos acessíveis, com qualidade e excelente custo-benefício.</p>
+                            <a class="btn answers__btn" href="/faq.html">Quero um carro</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Midias/Carro Popular 3.jpg" alt="Seminovos com Garantia">
+                        <div class="card-content">
+                            <h3>Seminovos com Garantia</h3>
+                            <p>Revisados e com garantia, prontos para você rodar tranquilo.</p>
+                            <a class="btn answers__btn" href="/faq.html">Quero um carro</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="answers hidden container">
+            <div class="container__wrapper">
+                <h2 class="answers__title">Perguntas frequentes</h2>
+                <div class="answer__faq faq">
+                    <div class="faq__question">
+                        <h3 class="faq__question--title">1 Vocês aceitam troca ou pegam carro na troca?
+                        </h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stoke="white" stroke-width="7" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="faq__answer">
+                        <p class="faq__answer--paragrafo">Sim! Avaliamos seu carro usado na troca como parte do
+                            pagamento. Fazemos uma avaliação justa e rápida, levando em conta o estado geral e a tabela
+                            de mercado
+                        </p>
+                    </div>
+                </div>
+
+                <div class="answer__faq faq">
+                    <div class="faq__question">
+                        <h3 class="faq__question--title">2 Posso financiar um carro com vocês? Preciso de entrada?
+
+                        </h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stoke="white" stroke-width="7" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="faq__answer">
+                        <p class="faq__answer--paragrafo">Sim! Trabalhamos com diversos bancos parceiros para
+                            financiamento facilitado. Em muitos casos, conseguimos sem entrada ou com valores bem
+                            baixos. Fazemos simulação na hora, sem compromisso!</p>
+                    </div>
+                </div>
+
+                <div class="answer__faq faq">
+                    <div class="faq__question">
+                        <h3 class="faq__question--title">3 Posso comprar mesmo com o nome sujo?
+
+                        </h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stoke="white" stroke-width="7" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="faq__answer">
+                        <p class="faq__answer--paragrafo">Em alguns casos, sim. Temos parcerias com financeiras que
+                            avaliam casos de score baixo ou nome negativado. Cada caso é analisado individualmente, e
+                            buscamos a melhor forma de viabilizar a compra para você.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="answer__faq faq">
+                    <div class="faq__question">
+                        <h3 class="faq__question--title">4 O carro tem Laudo Cautelar?
+
+                        </h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stoke="white" stroke-width="7" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="faq__answer">
+                        <p class="faq__answer--paragrafo">Sim, grande parte dos nossos carros já possuem laudo cautelar
+                            aprovado, garantindo que não têm sinistro, leilão, enchente ou outras restrições. Isso é
+                            fundamental para sua segurança e valorização futura do veículo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer-container container__wrapper">
+            <div class="footer-logo">
+                <img src="Midias/AzevedoVeiculos.png" class="footer--img" alt="">
+                <p>Transparência, confiança e a chave do seu novo carro.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links úteis</h3>
+                <ul>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                <p>Email: Juliamonteiroazevedo26@gmail.com</p>
+                <p>Telefone: (44) 99940-9488</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/azevedoveiculosmga/" target="_blank"><img
+                            src="Midias/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Azevedo Veiculos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
